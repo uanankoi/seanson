@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69.139" height="69.139" viewBox="0 0 69.139 69.139">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bf6363"/>
+      <stop offset="1" stop-color="#b9a8a8"/>
+    </linearGradient>
+  </defs>
+  <g id="btn-1" transform="translate(-34.401 -674.369)">
+    <g id="rect" transform="translate(34.401 674.369)">
+      <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(34.57) rotate(45)" stroke="#503939" stroke-width="2" fill="url(#linear-gradient)">
+        <rect width="48.889" height="48.889" stroke="none"/>
+        <rect x="1" y="1" width="46.889" height="46.889" fill="none"/>
+      </g>
+      <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(13.344 30.444) rotate(135)" fill="#bf6363" stroke="#503939" stroke-width="2">
+        <rect width="6.519" height="6.519" stroke="none"/>
+        <rect x="1" y="1" width="4.519" height="4.519" fill="none"/>
+      </g>
+      <g id="Rectangle_9" data-name="Rectangle 9" transform="translate(64.579 30.444) rotate(135)" fill="#bf6363" stroke="#503939" stroke-width="2">
+        <rect width="6.519" height="6.519" stroke="none"/>
+        <rect x="1" y="1" width="4.519" height="4.519" fill="none"/>
+      </g>
+      <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(13.344 38.745) rotate(135)" fill="#bf6363" stroke="#503939" stroke-width="2">
+        <rect width="6.519" height="6.519" stroke="none"/>
+        <rect x="1" y="1" width="4.519" height="4.519" fill="none"/>
+      </g>
+      <g id="Rectangle_10" data-name="Rectangle 10" transform="translate(64.579 38.745) rotate(135)" fill="#bf6363" stroke="#503939" stroke-width="2">
+        <rect width="6.519" height="6.519" stroke="none"/>
+        <rect x="1" y="1" width="4.519" height="4.519" fill="none"/>
+      </g>
+    </g>
+    <g id="spring" transform="translate(44 679)">
+      <path id="text" d="M20,4l4,2.5L25.5,10q6.1-1.1,8.5,1.5L33,14,23,16q-1.2,3,2.5,2,1.3-2.3,6-1L33,20l-7,1.5L28.5,24q6.7-1.7,8.5,1.5-1.6,2.9-7,2L34.5,33A65.286,65.286,0,0,0,55,44l1,2.5-4.5.5h-2L32,40V51.5L31,54l-9.5,1L17,51.5Q18,44,16,41L5.5,49,6,47.5l7-10L15,31,9,29q-1.1-2.7,1.5-2L18,23.5l-6-3q2.3-2.4,7-1.5,1.8-4.5-3.5-3L12,13.5q2.5-2.6,8-1.5Zm2,18,1,3V23h2Zm0,6L16,39q3-1,5,2,4,1,5-1-1-3-2-1l-4-1,6-4h3l-3-4Q27,26,22,28Zm1,16q-3,1-1,3v4h5V44Z" transform="translate(-1 -1)" fill="#503939"/>
+    </g>
+  </g>
+</svg>

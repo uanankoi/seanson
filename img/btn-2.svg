@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69.139" height="69.139" viewBox="0 0 69.139 69.139">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bf6363"/>
+      <stop offset="1" stop-color="#b9a8a8"/>
+    </linearGradient>
+  </defs>
+  <g id="btn-2" transform="translate(-113.401 -674.369)">
+    <g id="rect" transform="translate(113.401 674.369)">
+      <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(34.57) rotate(45)" stroke="#503939" stroke-width="2" fill="url(#linear-gradient)">
+        <rect width="48.889" height="48.889" stroke="none"/>
+        <rect x="1" y="1" width="46.889" height="46.889" fill="none"/>
+      </g>
+      <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(13.344 30.444) rotate(135)" fill="#bf6363" stroke="#503939" stroke-width="2">
+        <rect width="6.519" height="6.519" stroke="none"/>
+        <rect x="1" y="1" width="4.519" height="4.519" fill="none"/>
+      </g>
+      <g id="Rectangle_9" data-name="Rectangle 9" transform="translate(64.579 30.444) rotate(135)" fill="#bf6363" stroke="#503939" stroke-width="2">
+        <rect width="6.519" height="6.519" stroke="none"/>
+        <rect x="1" y="1" width="4.519" height="4.519" fill="none"/>
+      </g>
+      <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(13.344 38.745) rotate(135)" fill="#bf6363" stroke="#503939" stroke-width="2">
+        <rect width="6.519" height="6.519" stroke="none"/>
+        <rect x="1" y="1" width="4.519" height="4.519" fill="none"/>
+      </g>
+      <g id="Rectangle_10" data-name="Rectangle 10" transform="translate(64.579 38.745) rotate(135)" fill="#bf6363" stroke="#503939" stroke-width="2">
+        <rect width="6.519" height="6.519" stroke="none"/>
+        <rect x="1" y="1" width="4.519" height="4.519" fill="none"/>
+      </g>
+    </g>
+    <g id="summer" transform="translate(118 679)">
+      <path id="texr-2" d="M37.5,5q1.5,2.5,7,1L48,8.5q.5,3-6.5,1.5-1.7-2.8-8-1L30,10.5l11,5L37,17l-2,8.5v5l1,3-3,7L39.5,45l11,2L57,50.5,46.5,51l-17-6L28,48l-3.5,2L24,48.5l4-7L23.5,39,19,45l-2-.5,3-10-3-1-1-2,2-.5,3-7.5L18.5,20,16,19.5l7.5-.5,3,1L31,18.5,27.5,17q-2.6.8-1.5-2.5L22.5,17,21,16.5,24,11,13.5,13,11,9,23.5,7h7ZM31,21l-5,2h5v2H25v3l7-2V21Zm1,7-7,4v1q5,0,7-3Zm-6,6q-1,3,2,2l1,1Q30,32,26,34Z" fill="#503939"/>
+      <path id="text-1" d="M13.5,49l.5,1.5L12,54,9.5,55,9,53.5Z" fill="#503939"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69.139" height="69.139" viewBox="0 0 69.139 69.139">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bf6363"/>
+      <stop offset="1" stop-color="#b9a8a8"/>
+    </linearGradient>
+  </defs>
+  <g id="btn-4" transform="translate(-271.401 -674.369)">
+    <g id="rect" transform="translate(271.401 674.369)">
+      <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(34.57) rotate(45)" stroke="#503939" stroke-width="2" fill="url(#linear-gradient)">
+        <rect width="48.889" height="48.889" stroke="none"/>
+        <rect x="1" y="1" width="46.889" height="46.889" fill="none"/>
+      </g>
+      <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(13.344 30.444) rotate(135)" fill="#bf6363" stroke="#503939" stroke-width="2">
+        <rect width="6.519" height="6.519" stroke="none"/>
+        <rect x="1" y="1" width="4.519" height="4.519" fill="none"/>
+      </g>
+      <g id="Rectangle_9" data-name="Rectangle 9" transform="translate(64.579 30.444) rotate(135)" fill="#bf6363" stroke="#503939" stroke-width="2">
+        <rect width="6.519" height="6.519" stroke="none"/>
+        <rect x="1" y="1" width="4.519" height="4.519" fill="none"/>
+      </g>
+      <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(13.344 38.745) rotate(135)" fill="#bf6363" stroke="#503939" stroke-width="2">
+        <rect width="6.519" height="6.519" stroke="none"/>
+        <rect x="1" y="1" width="4.519" height="4.519" fill="none"/>
+      </g>
+      <g id="Rectangle_10" data-name="Rectangle 10" transform="translate(64.579 38.745) rotate(135)" fill="#bf6363" stroke="#503939" stroke-width="2">
+        <rect width="6.519" height="6.519" stroke="none"/>
+        <rect x="1" y="1" width="4.519" height="4.519" fill="none"/>
+      </g>
+    </g>
+    <g id="winter" transform="translate(281 679)">
+      <path id="text-2" d="M26.5,8,33,9v3q-3.8-1.5-3,1.5l-3,8L28,24,43.5,34,53,36l-.5,3h-10a40.875,40.875,0,0,1-18-13L22,32l7,2.5V37H24q1.1,2.7-1.5,2l.5-1.5L21.5,34,19,35.5,17.5,38l-5,3L12,39.5a40.777,40.777,0,0,0,9-17q-2.7-5.2-5.5.5L12,24,17.5,9l6,1ZM22,13l-2,2q-1,4,3,2Z" fill="#503939"/>
+      <path id="text-1" d="M20,43l4.5,2h2L32,47.5V50H25.5L20,46.5Z" fill="#503939"/>
+    </g>
+  </g>
+</svg>
