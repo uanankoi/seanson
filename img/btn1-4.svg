@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75">
+  <g id="btn1-4" transform="translate(-110 -671)">
+    <rect id="b" width="75" height="75" transform="translate(110 671)" fill="none"/>
+    <g id="winter" transform="translate(122 680)">
+      <path id="text-2" d="M26.5,8,33,9v3q-3.8-1.5-3,1.5l-3,8L28,24,43.5,34,53,36l-.5,3h-10a40.875,40.875,0,0,1-18-13L22,32l7,2.5V37H24q1.1,2.7-1.5,2l.5-1.5L21.5,34,19,35.5,17.5,38l-5,3L12,39.5a40.777,40.777,0,0,0,9-17q-2.7-5.2-5.5.5L12,24,17.5,9l6,1ZM22,13l-2,2q-1,4,3,2Z" fill="rgb(15, 15, 15)"/>
+      <path id="text-1" d="M20,43l4.5,2h2L32,47.5V50H25.5L20,46.5Z" fill="rgb(15, 15, 15)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="520" viewBox="0 0 350 520">
+  <g id="winterday3" transform="translate(-41 -43)">
+    <g id="sun">
+      <path id="Path_281" data-name="Path 281" d="M63.952-12.138c22.018,0,78.309-27.109,122.868,0,37.98,23.1,65.929,98.893,65.929,125.21,0,24.132,19.715,111.6,0,149.445-24.951,47.907-93.236,44.428-116.875,44.428-41.543,0-149.84-44.984-149.84-100.975S22.409-12.138,63.952-12.138Z" transform="translate(99.178 87)" fill="rgba(230,222,198,0.38)"/>
+    </g>
+    <rect id="box" width="350" height="520" transform="translate(41 43)" fill="none"/>
+  </g>
+</svg>

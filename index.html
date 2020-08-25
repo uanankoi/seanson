@@ -3,138 +3,189 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="season四季 svg 動畫 ">
     <title>season</title>
-    <style>
-        body{
-            margin: 0;
-            padding: 0;
-            position: relative;
-        }  
-        .back{
-            width: 100%;
-            height: 100vh;
-            position: absolute;
-            background: linear-gradient(#D8B1B1,#AED167,#D8B1B1); 
-            animation: run 5s linear infinite;
-            z-index: -55;
-        }
-        .back2{
-            width: 100%;
-            height: 100vh;
-            position: absolute;
-            background-image: url(./img/twice.svg);
-            animation: run2 60s linear infinite;
-            opacity: 0.5;
-            z-index: -55;
-        }
-
-
-        @media (min-width: 375px){
-        .wrap{
-            width: 100%;
-            height: 100vh;
-        }
-        .main{
-            width: 100%;
-            height: 90%;
-            display: flex;
-            flex-wrap: wrap;
-            
-            
-        }
-        .main .btn{
-            width: 100%;
-            height: 85%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .main .draw{
-            width: 100%;
-            height: 15%;
-        }
-        .main .draw ul{
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .main .draw ul li{
-            margin: 0 10px;
-        }
-        .btm{
-            width: 100%;
-            height: 10%;
-            /*  */
-            /* display: flex;
-            justify-content: center;
-            overflow: hidden;
-            position: relative; */
-            
-            /* align-items: center; */
-            /* background-color: rgb(80, 80, 80); */
-        }
-        .btm img{
-            /* width: 120px;
-            height: 120px;
-            position: absolute;
-            top: 10px; */
-            /*  */
-            display: none;
-
-        }
-
-        }
-
-        
-        
-
-        @keyframes run {
-            0%{
-                background-position-y: 0;
-            }
-            100%{
-                background-position-y: 100vh;
-            }
-        }
-
-        @keyframes run2{
-            0%{
-                background-position: 0 0;
-            }
-            100%{
-                background-position: -200vh -200vh;
-            }
-        }
-       
-    </style>
+    <!-- icon -->
+    <link rel="icon" href="./img/icon.svg" type="image/x-icon" />
+    <!-- animate css CDN-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <!-- css -->
+    <link href="./css/seanson.css" rel="stylesheet" media="all">    
+    
 </head>
 <body>
-    <div class="back"></div>
+    <div class="back">
+        <div class="backColor"></div>
+    </div>
     <div class="back2"></div>
     
     <div class="wrap">
         <article class="main">
             <div class="btn">
-                    <img src="./img/main.svg" class="sum" alt="">
+                <ul>
+                    <li><img src="./img/btn1.svg" alt=""><img src="./img/btn1-1.svg" alt=""></li>
+                    <li><img src="./img/btn1.svg" alt=""><img src="./img/btn1-2.svg" alt=""></li>
+                    <li><img src="./img/btn1.svg" alt=""><img src="./img/btn1-3.svg" alt=""></li>
+                    <li><img src="./img/btn1.svg" alt=""><img src="./img/btn1-4.svg" alt=""></li>
+                </ul>        
             </div>
             <div class="draw">
-                <ul>
-                    <li><img src="./img/btn-1.svg" alt=""></li>
-                    <li><img src="./img/btn-2.svg" alt=""></li>
-                    <li><img src="./img/btn-3.svg" alt=""></li>
-                    <li><img src="./img/btn-4.svg" alt=""></li>
-                </ul>
+                <div class="box">
+                    <ul>
+                        <li id="home">
+                            <img src="./img/main-back.svg" alt="">
+                            <img src="./img/main-text.svg" alt="">
+                        </li>
+                        <li id="spring">
+                            <img class="springOne" src="./img/spring-sun.svg" alt="">
+                            <img src="./img/spring-mon.svg" alt="">
+                            <img src="./img/spring-tree.svg" alt="">
+                            <img class="goAction springGo" src="./img/spring-flo.svg" alt="">
+                            <img src="./img/spring-flo2.svg" alt="">
+                            <a class="clickUP"><img class="clickImg" src="./img/click60.svg" alt=""></a>
+                            
+                        </li>
+                        <li id="summer">
+                            <img class="summerOne" src="./img/sum-back1.svg" alt="">
+                            <img src="./img/sum-back2.svg" alt="">
+                            <img src="./img/sum-fire.svg" alt="">
+                            <img src="./img/sum-flo.svg" alt="">
+                            <img src="./img/sum-flo2.svg" alt="">
+                            <img class="goAction summerGo" src="./img/fires.svg" alt="">
+                            <a class="clickUP"><img class="clickImg" src="./img/click60.svg" alt=""></a>
+
+                        </li>
+                        <li id="fall">
+                            <img class="fallOne" src="./img/fall-ball.svg" alt="">
+                            <img src="./img/fall-moon.svg" alt="">
+                            <img src="./img/fall-rat.svg" alt="">
+                            <img src="./img/fall-wind.svg" alt="">
+                            <img src="./img/fall-wind1.svg" alt="">
+                            <img src="./img/fall-cloud.svg" alt="">
+                            <img class="goAction fallGo" src="./img/fog.svg" alt="">
+                            <a class="clickUP"><img class="clickImg" src="./img/click60.svg" alt=""></a>
+                        </li>
+                        <li id="winter">
+                            <img class="winterOne" src="./img/win-sun4.svg" alt="">
+                            <img src="./img/win-sun3.svg" alt="">
+                            <img src="./img/win-sun2.svg" alt="">
+                            <img src="./img/win-tree.svg" alt="">
+                            <img src="./img/win-flo.svg" alt="">
+                            <img class="goAction winterGo" src="./img/win-snowman.svg" alt="">
+                            <a class="clickUP"><img class="clickImg" src="./img/click60.svg" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+               
             </div>
         </article>
-        <footer class="btm"><img src="./img/home.svg" alt=""></footer>
+        <footer class="btm">
+            <ul>
+                <li>
+                    <img src="./img/Btn.svg" alt="">
+                    <img src="./img/Btn-1.svg" alt="">
+                </li>
+            </ul>
+           
+        </footer>
+
+
     </div>
-    
+
+   
+
     <script>
+
+        // 宣告選取
+        // 中間四季的按鍵
+        let btns = document.querySelectorAll('.btn ul li');
+        // 畫布
+        let draws = document.querySelector('.main .draw .box ul');
+        // 漸層色背景
+        let backColor = document.querySelector('.backColor');
+        // 中式紋樣背景
+        let back2 = document.querySelector('.back2');
+        // home 首頁
+        let goHome = document.querySelector('.btm ul li');
+        // 點擊按鍵img
+        let clickImgs = document.querySelectorAll('.clickImg');
+        // 四季點擊goActions
+        let goActions = document.querySelectorAll('.goAction');
+
+
+        // 先清除li的class('white')
+        function removeWhite(lis){
+            for(i=0;i<lis.length;i++){
+                lis[i].children[1].classList.remove('white');
+            }
+        }
+
+        // btns(中間4個按鍵)的click事件監聽
+
+        for(i=0;i<btns.length;i++){
+            btns[i].index=i;
+
+            btns[i].addEventListener('click',function(e){
+                let num = this.index;
+                // 移除back2
+                back2.classList.remove('back2');
+                // 先清除backColor的class再加入指定class，back轉換
+                backColor.classList.remove('backColor1', 'backColor2', 'backColor3', 'backColor4')
+                backColor.classList.add('backColor'+(num+1))
+                // 先清除li的class('white')
+                removeWhite(btns);
+                // 清除回首頁選項class
+                goHome.children[1].classList.remove('white')
+                // 選項加入class
+                this.children[1].classList.add('white');
+                // 點擊動畫，父層<a>先清除class，再加class
+                for(i=0;i<clickImgs.length;i++){
+                    clickImgs[i].parentNode.classList.remove('clickDown')
+                    clickImgs[i].parentNode.classList.add('clickUP')
+                }
+                clickImgs[num].parentNode.classList.remove('clickUP')
+                clickImgs[num].parentNode.classList.add('clickDown')
+                // 移動ul
+                draws.style.left=-((num)+1)*440+'px';
+
+            })
+        }
+
+        // home首頁的click監聽事件
+        goHome.addEventListener('click',function(e){
+                console.log(this);
+                // 先清除li的class('white')
+                removeWhite(btns);
+                // 選項加class
+                this.children[1].classList.add('white');
+                // ul拉回
+                draws.style.left='0px';
+                // 加入back2
+                back2.classList.add('back2');
+                // 清除backColor的class
+                backColor.classList.remove('backColor1', 'backColor2', 'backColor3', 'backColor4')
+            
+            }
+        );
+
+        // clickImgs的監聽事件
+        
+        for(i=0;i<clickImgs.length;i++){
+            clickImgs[i].index=i;
+    
+            clickImgs[i].addEventListener('click',function(e){
+                let num = this.index
+                // 加點擊動畫class
+                goActions[num].classList.add('goAction'+num);
+                // 動畫完畢事件移除該class
+                goActions[num].addEventListener('animationend',function(){
+                    this.classList.remove('goAction'+num)
+                })
+            })
+        }
+
     </script>
 </body>
 </html>

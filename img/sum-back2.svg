@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="520" viewBox="0 0 350 520">
+  <g id="summernightback2" transform="translate(-12 -29)">
+    <path id="back-1" d="M153.573,40.63c85.89,0,172.142-87.949,195.374,19.464,4.423,20.451,9.377,131.645,9.377,153.406,0,134.323-28.492,263.661-130.987,263.661S30.8,374.408,30.8,240.085,51.077,40.63,153.573,40.63Z" transform="translate(390.252 531.032) rotate(180)" fill="rgba(51,65,135,0.79)"/>
+    <rect id="box" width="350" height="520" transform="translate(12 29)" fill="none"/>
+  </g>
+</svg>

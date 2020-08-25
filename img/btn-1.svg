@@ -1,35 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69.139" height="69.139" viewBox="0 0 69.139 69.139">
-  <defs>
-    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#bf6363"/>
-      <stop offset="1" stop-color="#b9a8a8"/>
-    </linearGradient>
-  </defs>
-  <g id="btn-1" transform="translate(-34.401 -674.369)">
-    <g id="rect" transform="translate(34.401 674.369)">
-      <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(34.57) rotate(45)" stroke="#503939" stroke-width="2" fill="url(#linear-gradient)">
-        <rect width="48.889" height="48.889" stroke="none"/>
-        <rect x="1" y="1" width="46.889" height="46.889" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="125" height="125" viewBox="0 0 125 125">
+  <g id="Btn-1" transform="translate(-62 -674)">
+    <g id="home" transform="translate(64 676)">
+      <g id="Sizing_Rectangle" data-name="Sizing Rectangle" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="1">
+        <rect width="120" height="60" stroke="none"/>
+        <rect x="0.5" y="0.5" width="119" height="59" fill="none"/>
       </g>
-      <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(13.344 30.444) rotate(135)" fill="#bf6363" stroke="#503939" stroke-width="2">
-        <rect width="6.519" height="6.519" stroke="none"/>
-        <rect x="1" y="1" width="4.519" height="4.519" fill="none"/>
-      </g>
-      <g id="Rectangle_9" data-name="Rectangle 9" transform="translate(64.579 30.444) rotate(135)" fill="#bf6363" stroke="#503939" stroke-width="2">
-        <rect width="6.519" height="6.519" stroke="none"/>
-        <rect x="1" y="1" width="4.519" height="4.519" fill="none"/>
-      </g>
-      <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(13.344 38.745) rotate(135)" fill="#bf6363" stroke="#503939" stroke-width="2">
-        <rect width="6.519" height="6.519" stroke="none"/>
-        <rect x="1" y="1" width="4.519" height="4.519" fill="none"/>
-      </g>
-      <g id="Rectangle_10" data-name="Rectangle 10" transform="translate(64.579 38.745) rotate(135)" fill="#bf6363" stroke="#503939" stroke-width="2">
-        <rect width="6.519" height="6.519" stroke="none"/>
-        <rect x="1" y="1" width="4.519" height="4.519" fill="none"/>
-      </g>
+      <path id="rgba_127_0_0_1_" data-name="rgba(127,0,0,1)" d="M97.5,5,107,6l1,4-20,.5,2,.5,1,2.5-4,3,3.5.5,4-2,7.5,4.5-2,8q2.2,1.3,1,6l-1,1V42q-5.4.9-7.5-3l-8,3H79l-1-3.5,2-4q-2.2-1.3-1-6l1-2-3-4V20l3.5,1q4.3-2.8,3.5-9l-7.5,1L71,10.5,76.5,8h7ZM85,20q-5,2-1,4l4-1q5,2,4-2Zm8,3-1,3-7,2v1l8-1Zm0,8L83,34l1,3,9-1Z" fill="rgb(15, 15, 15)"/>
+      <path id="rgba_127_0_0_1_2" data-name="rgba(127,0,0,1)" d="M36,7h6v3.5L34.5,14l.5-1.5Z" fill="rgb(15, 15, 15)"/>
+      <path id="rgba_127_0_0_1_3" data-name="rgba(127,0,0,1)" d="M18,11q4.3-1,5.5,2L26,12q.8,3.4-2,4.5l10.5.5,1-1h13L51,17l-1.5,3q-6.8,1.3-10-1h-2q-6.3-2.2-4.5,3.5L32,25l-5,1.5,3.5.5,1-1h10L43,28.5q-3.3,1.3-2,7v13L39.5,50l-7-1-1,1H22l-1-5.5q2.7-2.3,2-8l-4-7,1.5.5,2,1q4.2-1.7,1.5-3.5L26,21,14.5,24,10,22q-1.1-2.7,1.5-2l3-2,9.5-.5L19,16ZM32,29l-7,2,1,2,9-2Q36,28,32,29Zm4,3-5,3q-4-1-3,2l3-1q5-2,4,2l-6,2q-3-1-2,6v1q6,1,9-2Z" fill="rgb(15, 15, 15)"/>
+      <path id="rgba_127_0_0_1_4" data-name="rgba(127,0,0,1)" d="M79,43h6v4.5L81.5,52,76,53l3-6.5Z" fill="rgb(15, 15, 15)"/>
+      <path id="rgba_127_0_0_1_5" data-name="rgba(127,0,0,1)" d="M96,43q7.5-.2,11,4.5l1,4.5q-8.9-.2-12-7.5Z" fill="rgb(15, 15, 15)"/>
     </g>
-    <g id="spring" transform="translate(44 679)">
-      <path id="text" d="M20,4l4,2.5L25.5,10q6.1-1.1,8.5,1.5L33,14,23,16q-1.2,3,2.5,2,1.3-2.3,6-1L33,20l-7,1.5L28.5,24q6.7-1.7,8.5,1.5-1.6,2.9-7,2L34.5,33A65.286,65.286,0,0,0,55,44l1,2.5-4.5.5h-2L32,40V51.5L31,54l-9.5,1L17,51.5Q18,44,16,41L5.5,49,6,47.5l7-10L15,31,9,29q-1.1-2.7,1.5-2L18,23.5l-6-3q2.3-2.4,7-1.5,1.8-4.5-3.5-3L12,13.5q2.5-2.6,8-1.5Zm2,18,1,3V23h2Zm0,6L16,39q3-1,5,2,4,1,5-1-1-3-2-1l-4-1,6-4h3l-3-4Q27,26,22,28Zm1,16q-3,1-1,3v4h5V44Z" transform="translate(-1 -1)" fill="#503939"/>
-    </g>
+    <rect id="bb" width="125" height="125" transform="translate(62 674)" fill="none"/>
   </g>
 </svg>

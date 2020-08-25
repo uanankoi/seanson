@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="520" viewBox="0 0 350 520">
+  <g id="ball" transform="translate(-30 -21)">
+    <path id="Path_283" data-name="Path 283" d="M138.754,0A138.754,138.754,0,1,1,0,138.754,138.754,138.754,0,0,1,138.754,0Z" transform="translate(39.967 245)" fill="#dbcbcb"/>
+    <rect id="box" width="350" height="520" transform="translate(30 21)" fill="none"/>
+  </g>
+</svg>

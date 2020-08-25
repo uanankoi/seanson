@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="520" viewBox="0 0 350 520">
+  <g id="big" transform="translate(-32 -17)">
+    <rect id="box" width="350" height="520" transform="translate(32 17)" fill="none"/>
+    <g id="Group_134" data-name="Group 134" transform="translate(354.356 362.99) rotate(180)">
+      <rect id="Rectangle_12" data-name="Rectangle 12" width="293" height="42" rx="21" transform="translate(29.357 -0.01)" fill="#6f8db9"/>
+      <rect id="Rectangle_13" data-name="Rectangle 13" width="213" height="42" rx="15" transform="translate(0.357 39.99)" fill="#6f8db9"/>
+      <rect id="Rectangle_15" data-name="Rectangle 15" width="228" height="42" rx="15" transform="translate(21.357 121.99)" fill="#6f8db9"/>
+      <path id="Path_2" data-name="Path 2" d="M0,0H58.174S42.6,9.911,42.6,20.3,58.174,41.553,58.174,41.553H0S18.7,30.687,18.7,20.3,0,0,0,0Z" transform="translate(106.683 81.413)" fill="#6f8db9"/>
+    </g>
+    <g id="Group_135" data-name="Group 135" transform="translate(377.356 440.556) rotate(180)">
+      <rect id="Rectangle_12-2" data-name="Rectangle 12" width="293" height="42" rx="21" transform="translate(29.357 -0.444)" fill="#89d8cd"/>
+      <rect id="Rectangle_13-2" data-name="Rectangle 13" width="213" height="42" rx="15" transform="translate(0.357 39.556)" fill="#89d8cd"/>
+      <rect id="Rectangle_15-2" data-name="Rectangle 15" width="228" height="42" rx="15" transform="translate(21.357 121.556)" fill="#89d8cd"/>
+      <path id="Path_2-2" data-name="Path 2" d="M0,0H58.174S42.6,9.911,42.6,20.3,58.174,41.553,58.174,41.553H0S18.7,30.687,18.7,20.3,0,0,0,0Z" transform="translate(106.683 81.413)" fill="#89d8cd"/>
+    </g>
+  </g>
+</svg>

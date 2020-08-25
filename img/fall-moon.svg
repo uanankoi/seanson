@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="520" viewBox="0 0 350 520">
+  <g id="moon" transform="translate(-30 -21)">
+    <path id="Path_284" data-name="Path 284" d="M95.424,0A95.424,95.424,0,1,1,0,95.424,95.424,95.424,0,0,1,95.424,0Z" transform="translate(178.967 39)" fill="#fff"/>
+    <rect id="box" width="350" height="520" transform="translate(30 21)" fill="none"/>
+  </g>
+</svg>

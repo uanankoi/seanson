@@ -1,0 +1,575 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.back {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  overflow: hidden;
+  z-index: -55;
+}
+.backColor {
+  width: 100%;
+  height: 200vh;
+  background: linear-gradient(#d8b1b1, #aed167, #d8b1b1);
+  animation: run 20s linear infinite;
+}
+.backColor1 {
+  background: linear-gradient(#b1d8b1, #187f9a, #b1d8b1);
+}
+.backColor2 {
+  background: linear-gradient(#d8b1c3, #2d5477, #d8b1c3);
+}
+.backColor3 {
+  background: linear-gradient(#87b76e, #ec9d46, #87b76e);
+}
+.backColor4 {
+  background: linear-gradient(#81b4db, #7e7c7c, #81b4db);
+}
+.back2 {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background-image: url(../img/twice.svg);
+  animation: run2 60s linear infinite;
+  opacity: 0.5;
+  z-index: -55;
+}
+ul {
+  height: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* 以i6為最小 */
+@media (min-width: 375px) {
+  .wrap {
+    width: 100%;
+    height: 100vh;
+  }
+  .main {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .main .btn {
+    width: 100%;
+    height: 15%;
+  }
+  .main .btn ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .main .btn ul li {
+    width: 75px;
+    margin: 0 10px;
+    cursor: pointer;
+    position: relative;
+    transition: 3s;
+  }
+  .main .btn ul li img {
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    transition: 2s;
+  }
+  .main .draw {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main .draw .box {
+    width: 350px;
+    height: 520px;
+    overflow: hidden;
+    position: relative;
+  }
+  .main .draw .box ul {
+    width: 2250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .main .draw .box ul li {
+    width: 350px;
+    height: 100%;
+    margin-right: 90px;
+    float: left;
+    position: relative;
+  }
+  .main .draw .box ul li a {
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 120px;
+    background-color: #fff;
+    cursor: pointer;
+    background: linear-gradient(0.33turn, #ebbfbf, #b91717);
+    border: 3px solid #503939;
+    border-radius: 1px;
+    top: 20px;
+    left: 5px;
+    opacity: 0.9;
+    transition: 1s ease-out;
+  }
+  .main .draw .box ul li img {
+    position: absolute;
+  }
+
+  /* svg四季 */
+  /* 主 */
+  #home img:nth-child(2) {
+    transform: scale(1.2);
+  }
+  /* 春 */
+  .springOne {
+    animation: sun 10s infinite;
+  }
+  #spring img:nth-child(2) {
+    animation: mountain 10s infinite;
+  }
+  #spring img:nth-child(3) {
+    animation: springWind 10s infinite;
+  }
+  #spring img:nth-child(5) {
+    animation: appear 10s infinite;
+  }
+  /* 夏 */
+  .summerOne {
+    animation: summerBack1 10s infinite;
+  }
+  #summer img:nth-child(2) {
+    animation: summerBack2 10s infinite;
+  }
+  #summer img:nth-child(3) {
+    animation: fire 10s infinite;
+  }
+  #summer img:nth-child(4) {
+    animation: swing 5s infinite;
+  }
+  #summer img:nth-child(5) {
+    animation: tada 5s infinite;
+  }
+  /* 秋 */
+  .fallOne,
+  #fall img:nth-child(2) {
+    animation: roll 5s infinite;
+  }
+  #fall img:nth-child(3) {
+    animation: bounce 5s infinite;
+  }
+  #fall img:nth-child(4),
+  #fall img:nth-child(5) {
+    animation: WindRight 5s infinite;
+  }
+  #fall img:nth-child(6) {
+    animation: WindLeft 5s infinite;
+  }
+  /* 冬 */
+  .winterOne {
+    animation: sunshine3 5s infinite;
+  }
+  #winter img:nth-child(2) {
+    animation: sunshine2 5s infinite;
+  }
+  #winter img:nth-child(3) {
+    animation: sunshine 5s infinite;
+  }
+  #winter img:nth-child(4) {
+    animation: upIn 10s infinite;
+  }
+  #winter img:nth-child(5) {
+    animation: bounceIn 10s infinite;
+  }
+
+  .btm {
+    width: 100%;
+    height: 10%;
+    position: relative;
+    overflow: hidden;
+  }
+  .btm ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+  }
+  .btm ul li {
+    width: 125px;
+    position: relative;
+    cursor: pointer;
+  }
+  .btm ul li img {
+    position: absolute;
+    transition: 2s;
+  }
+}
+
+@media (min-width: 992px) {
+  .main {
+    flex-direction: column;
+  }
+  .main .btn {
+    width: 50%;
+    height: 100%;
+  }
+  .main .btn ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main .btn ul li {
+    height: 75px;
+    margin: 10px 0;
+    transition: 3s;
+  }
+  .main .draw {
+    width: 50%;
+    height: 100%;
+  }
+}
+
+/* add/remove class */
+
+/* 點擊按鈕移出 add */
+.clickUP {
+  transform: translateY(-250px);
+  opacity: 0;
+}
+/* 點擊按鈕顯現 add */
+.clickDown {
+  transform: translateY(0);
+  opacity: 1;
+}
+/* 按鈕action add */
+.white {
+  filter: invert(90%) opacity(90%);
+  left: -5px;
+}
+
+/* 點擊svg */
+/* 春 */
+.springGo {
+  transform: translateY(-350px);
+}
+/* 夏 */
+.summerGo {
+  transform: scale(0);
+}
+/* 秋 */
+.fallGo {
+  transform: translateX(-200px);
+  opacity: 0;
+}
+/* 冬 */
+.winterGo {
+  transform: translateY(-500px);
+}
+/* 點擊動畫  action add */
+/* 春 */
+.goAction0 {
+  animation: springUp 5s ease-in-out;
+}
+/* 夏 */
+.goAction1 {
+  animation: summerAppear 3.5s ease-in-out;
+}
+/* 秋 */
+.goAction2 {
+  animation: fogCome 6s ease-in-out;
+}
+/* 冬 */
+.goAction3 {
+  animation: showSnow 4s ease-in-out;
+}
+
+/* 背景動畫 */
+/* backColor */
+@keyframes run {
+  0% {
+    background-position-y: 0;
+  }
+  100% {
+    background-position-y: 200vh;
+  }
+}
+/* back2 */
+@keyframes run2 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -200vh -200vh;
+  }
+}
+
+/* 點擊svg動畫 */
+/* 春 */
+@keyframes springUp {
+  0% {
+    transform: translateY(350px) rotate(180deg);
+  }
+  100% {
+    transform: translateY(-350px) rotate(0);
+  }
+}
+
+/* 夏 */
+@keyframes summerAppear {
+  0% {
+    transform: scale(0) rotate(50deg);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.1) rotate(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.1);
+    opacity: 0;
+  }
+}
+/* 秋 */
+@keyframes fogCome {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(150px);
+    opacity: 0;
+  }
+}
+/* 冬 */
+@keyframes showSnow {
+  0% {
+    transform: translateY(-500px);
+  }
+  30% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: skewX(-8deg);
+    opacity: 1;
+  }
+  60%{
+    transform: skewX(8deg);
+  }
+  100% {
+    transform: skewX(-8deg);
+    opacity: 0;
+  }
+}
+
+/* svg四季動畫 */
+/* 主 */
+@keyframes big {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) translateY(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+/* 春 */
+@keyframes sun {
+  0% {
+    opacity: 0;
+    transform: translateY(-200px) scale(0.3);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes mountain {
+  0% {
+    transform: translateY(30px) scale(0.7);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes springWind {
+  0% {
+    transform: translate(-20px);
+  }
+  50% {
+    transform: translate(-15px, -40px) rotate(-5deg);
+  }
+  100% {
+    transform: translate(-20px);
+  }
+}
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: rotate(50deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0);
+  }
+}
+/* 夏 */
+@keyframes summerBack1 {
+  0% {
+    transform: scaleX(0.5) scaleY(0.8);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scaleX(1) scaleY(1);
+    opacity: 1;
+  }
+}
+@keyframes summerBack2 {
+  0% {
+    transform: scale(0.3) rotate(120deg);
+    opacity: 0.8;
+  }
+  50% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+}
+@keyframes fire {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) rotate(50deg);
+  }
+  20% {
+    opacity: 1;
+    transform: scale(1.2) rotate(0);
+  }
+  60% {
+    opacity: 0;
+    transform: scale(0.3) rotate(-50deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+}
+/* 秋 */
+@keyframes roll {
+  0% {
+    transform: translate(-5%, -30%);
+    opacity: 0;
+  }
+  80% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+@keyframes moon {
+  0% {
+    transform: scale(0) translateY(-50%);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes WindLeft {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes WindRight {
+  0% {
+    transform: translateX(70px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+/* 冬 */
+@keyframes upIn {
+  0% {
+    transform: translateY(60px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes sunshine {
+  0% {
+    opacity: 0;
+    transform: skewX(3deg) scale(0.8);
+  }
+  50% {
+    transform: skewX(-3deg);
+  }
+  100% {
+    opacity: 1;
+    transform: skewX(3deg) scale(1);
+  }
+}
+@keyframes sunshine2 {
+  20% {
+    opacity: 0;
+    transform: skewX(-2deg) scale(0.8);
+  }
+  60% {
+    transform: skewX(2deg);
+  }
+  100% {
+    opacity: 1;
+    transform: skewX(-2deg) scale(1);
+  }
+}
+@keyframes sunshine3 {
+  40% {
+    opacity: 0;
+    transform: skewX(1deg) scale(0.8);
+  }
+  80% {
+    transform: skewX(-1deg);
+  }
+  100% {
+    opacity: 1;
+    transform: skewX(1deg) scale(1);
+  }
+}
